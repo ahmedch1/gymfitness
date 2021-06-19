@@ -536,13 +536,22 @@ class ComposerStaticInitfd93ff3d9fa4a963cc62db63090dd9fa
     );
 
     public static $classMap = array (
+<<<<<<< HEAD
         'App\\Activite' => __DIR__ . '/../..' . '/app/Activite.php',
+=======
+        'App\\Abonnement' => __DIR__ . '/../..' . '/app/Abonnement.php',
+>>>>>>> eb7a375471b105917d6cb3f70c6562da4bb81aa8
         'App\\Adherent' => __DIR__ . '/../..' . '/app/Adherent.php',
+        'App\\Caisse' => __DIR__ . '/../..' . '/app/Caisse.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Entraineur' => __DIR__ . '/../..' . '/app/Entraineur.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\AdherentController' => __DIR__ . '/../..' . '/app/Http/Controllers/AdherentController.php',
         'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
+        'App\\Http\\Controllers\\CaisseController' => __DIR__ . '/../..' . '/app/Http/Controllers/CaisseController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\EntraineurController' => __DIR__ . '/../..' . '/app/Http/Controllers/EntraineurController.php',
+        'App\\Http\\Controllers\\PlanningController' => __DIR__ . '/../..' . '/app/Http/Controllers/PlanningController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CORS' => __DIR__ . '/../..' . '/app/Http/Middleware/CORS.php',
@@ -555,6 +564,10 @@ class ComposerStaticInitfd93ff3d9fa4a963cc62db63090dd9fa
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Resources\\AdherentResource' => __DIR__ . '/../..' . '/app/Http/Resources/AdherentResource.php',
+        'App\\Http\\Resources\\CaisseResource' => __DIR__ . '/../..' . '/app/Http/Resources/CaisseResource.php',
+        'App\\Http\\Resources\\EntraineurResource' => __DIR__ . '/../..' . '/app/Http/Resources/EntraineurResource.php',
+        'App\\Http\\Resources\\PlanningResource' => __DIR__ . '/../..' . '/app/Http/Resources/PlanningResource.php',
+        'App\\Planning' => __DIR__ . '/../..' . '/app/Planning.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',

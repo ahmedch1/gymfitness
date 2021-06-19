@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../cvsmarketing/angularlaravelgym-jihenbranch (2)/angularlaravelgym-jihenbranch/.idea/angularlaravelgym-jihenbranch.iml" filepath="$PROJECT_DIR$/../../cvsmarketing/angularlaravelgym-jihenbranch (2)/angularlaravelgym-jihenbranch/.idea/angularlaravelgym-jihenbranch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../cvsmarketing/backend/backend/.idea/backend.iml" filepath="$PROJECT_DIR$/../../cvsmarketing/backend/backend/.idea/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gymfitness.iml" filepath="$PROJECT_DIR$/.idea/gymfitness.iml" />
+    </modules>
+  </component>
+</project>

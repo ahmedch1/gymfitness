@@ -24,9 +24,7 @@
       <change afterPath="$PROJECT_DIR$/../../cvsmarketing/backend/backend/app/Entraineur.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cvsmarketing/backend/backend/app/Http/Controllers/EntraineurController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cvsmarketing/backend/backend/app/Http/Resources/EntraineurResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Entraineur.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/EntraineurController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Resources/EntraineurResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Http/Resources/AbonnementResource.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/vendor/composer/autoload_classmap.php" afterDir="false" />
@@ -168,6 +166,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/app/Http/Resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,6 +178,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gymfitness2\gymfitness\backend\app\Http\Resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\gymfitness2\gymfitness\backend\app" />
       <recent name="D:\gymfitness2\gymfitness\backend\app\Http" />
@@ -192,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624107212758</updated>
-      <workItem from="1624107214900" duration="7474000" />
+      <workItem from="1624107214900" duration="11765000" />
     </task>
     <servers />
   </component>
@@ -211,10 +213,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1170" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624110240650">
+    <state x="1170" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1624119385428">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1170" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1624110240650" />
+    <state x="1170" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1624119385428" />
     <state x="1222" y="294" key="FileChooserDialogImpl" timestamp="1624108318385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -231,9 +233,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1146" y="273" width="587" height="534" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1624114713087" />
-    <state x="1103" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1624112885779">
+    <state x="1103" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1624119239965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1103" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1624112885779" />
+    <state x="1103" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1624119239965" />
   </component>
 </project>

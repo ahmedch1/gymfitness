@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Abonnement' => $baseDir . '/app/Abonnement.php',
     'App\\Adherent' => $baseDir . '/app/Adherent.php',
     'App\\Caisse' => $baseDir . '/app/Caisse.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
@@ -13,6 +14,7 @@ return array(
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\AdherentController' => $baseDir . '/app/Http/Controllers/AdherentController.php',
     'App\\Http\\Controllers\\AuthController' => $baseDir . '/app/Http/Controllers/AuthController.php',
+    'App\\Http\\Controllers\\CaisseController' => $baseDir . '/app/Http/Controllers/CaisseController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\EntraineurController' => $baseDir . '/app/Http/Controllers/EntraineurController.php',
     'App\\Http\\Controllers\\PlanningController' => $baseDir . '/app/Http/Controllers/PlanningController.php',
@@ -28,6 +30,7 @@ return array(
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Resources\\AdherentResource' => $baseDir . '/app/Http/Resources/AdherentResource.php',
+    'App\\Http\\Resources\\CaisseResource' => $baseDir . '/app/Http/Resources/CaisseResource.php',
     'App\\Http\\Resources\\EntraineurResource' => $baseDir . '/app/Http/Resources/EntraineurResource.php',
     'App\\Http\\Resources\\PlanningResource' => $baseDir . '/app/Http/Resources/PlanningResource.php',
     'App\\Planning' => $baseDir . '/app/Planning.php',

@@ -557,6 +557,7 @@ class ComposerStaticInitfd93ff3d9fa4a963cc62db63090dd9fa
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Resources\\AdherentResource' => __DIR__ . '/../..' . '/app/Http/Resources/AdherentResource.php',
         'App\\Http\\Resources\\EntraineurResource' => __DIR__ . '/../..' . '/app/Http/Resources/EntraineurResource.php',
+        'App\\Planning' => __DIR__ . '/../..' . '/app/Planning.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',

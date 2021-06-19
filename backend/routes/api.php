@@ -24,4 +24,10 @@ Route::group([
     Route::put('updateentraineur/{id}', 'EntraineurController@updateentraineur')->middleware('auth:api');
     Route::delete('deleteentraineur/{id}', 'EntraineurController@destroy')->middleware('auth:api');
     Route::post('addentraineur', 'EntraineurController@store')->middleware('auth:api');
+    //planning
+    Route::get('planning', 'PlanningController@index')->middleware('auth:api');
+    Route::put('updateplanning/{id}', 'PlanningController@updateplanning')->middleware('auth:api');
+    Route::delete('deleteplanning/{id}', 'PlanningController@destroy')->middleware('auth:api');
+    Route::post('addplanning', 'PlanningController@store')->middleware('auth:api');
+
 });

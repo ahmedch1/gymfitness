@@ -1,4 +1,4 @@
-<a class="nav-item nav-link" routerLink="home/addadherent">Ajouter adherent</a>
+<a class="btn btn-success" routerLink="home/addadherent"><i class="fa fa-plus"></i>Ajouter adherent</a>
 <table class="table">
     <thead>
       <tr>
@@ -16,8 +16,8 @@
         <td>{{a.prenom}}</td>
         <td>{{a.tel}}</td>
         <td>{{a.date_de_naissance}}</td>
-        <td><button id="submit" class="btn btn-outline-info" [routerLink]="['home/updateadherent/',a.id]">modifier</button></td>
-        <td><input type="submit" class="btn btn-outline-danger" value="supprimer" (click)="deleteadherent(a.id)"></td>
+        <td><button id="submit" class="btn btn-outline-info" [routerLink]="['home/updateadherent/',a.id]"><i class="fa fa-edit"></i>modifier</button>&nbsp;
+        <a class="btn btn-outline-danger" (click)="deleteadherent(a.id)"><i class="fa fa-trash"></i> supprimer</a></td>
        
 
       </tr>

@@ -17,4 +17,7 @@ Route::group([
     Route::get('adherent', 'AdherentController@index')->middleware('auth:api');
     Route::put('updateadherent/{id}', 'AdherentController@updateadherent')->middleware('auth:api');
     Route::delete('delete/{id}', 'AdherentController@destroy')->middleware('auth:api');
+    Route::post('addadherent', 'AdherentController@store')->middleware('auth:api');
+    Route::get('Activite','ActiviteController@getActivite');
+    Route::get('Activite/{id}','ActiviteController@getActivitebyid');
 });

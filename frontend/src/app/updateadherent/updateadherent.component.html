@@ -1,0 +1,29 @@
+<h2>Adherent</h2>
+<form>
+    <div class="form-group">
+        <label for="firstName">Nom</label>
+        <input type="text" class="form-control" name="nom" [(ngModel)]="nom"/>
+        
+    </div>
+    <div class="form-group">
+        <label for="lastName">Prenom</label>
+        <input type="text" class="form-control" name="prenom" [(ngModel)]="prenom"/>
+        
+    </div>
+    <div class="form-group">
+        <label for="username">tel</label>
+        <input type="text" class="form-control" name="tel"  [(ngModel)]="tel" />
+        
+    </div>
+    <div class="form-group">
+        <label for="password">Date de naissance</label>
+        <input type="text" class="form-control" name="dateNaissance" [(ngModel)]="dateNaissance" />
+    </div>
+    <div class="form-group">
+        <button  class="btn btn-primary" (click)="update()">
+            <span ></span>
+            Ajouter
+        </button>
+        <a routerLink="/home" class="btn btn-link">Cancel</a>
+    </div>
+</form>

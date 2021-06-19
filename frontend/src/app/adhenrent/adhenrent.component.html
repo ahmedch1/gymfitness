@@ -1,0 +1,26 @@
+<a class="nav-item nav-link" routerLink="home/addadherent">Ajouter adherent</a>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">nom</th>
+        <th scope="col">prenom</th>
+        <th scope="col">tel</th>
+        <th scope="col">dateNaissance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let a of adherent">
+        <td>{{a.id}}</td>
+        <td>{{a.nom}}</td>
+        <td>{{a.prenom}}</td>
+        <td>{{a.tel}}</td>
+        <td>{{a.date_de_naissance}}</td>
+        <td><button id="submit" class="btn btn-outline-info" [routerLink]="['home/updateadherent/',a.id]">modifier</button></td>
+        <td><input type="submit" class="btn btn-outline-danger" value="supprimer" (click)="deleteadherent(a.id)"></td>
+       
+
+      </tr>
+    </tbody>
+  </table>
+  

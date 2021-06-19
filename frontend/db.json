@@ -1,0 +1,42 @@
+{
+  "adherent": [
+    {
+      "nom": "jihen",
+      "prenom": "brahim",
+      "tel": "1234",
+      "dateNaissance": "11/11/11",
+      "id": 1
+    },
+    {
+      "nom": "jihen",
+      "prenom": "brahim",
+      "tel": "111",
+      "dateNaissance": "1111",
+      "id": 2
+    },
+    {
+      "nom": "jb",
+      "prenom": "jj",
+      "tel": "12345689",
+      "dateNaissance": "25/11/1992",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

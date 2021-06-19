@@ -29,5 +29,10 @@ Route::group([
     Route::put('updateplanning/{id}', 'PlanningController@updateplanning')->middleware('auth:api');
     Route::delete('deleteplanning/{id}', 'PlanningController@destroy')->middleware('auth:api');
     Route::post('addplanning', 'PlanningController@store')->middleware('auth:api');
+    //caisse
+    Route::get('caisse', 'CaisseController@index')->middleware('auth:api');
+    Route::put('updatecaisse/{id}', 'CaisseController@updatecaisse')->middleware('auth:api');
+    Route::delete('deletecaisse/{id}', 'CaisseController@destroy')->middleware('auth:api');
+    Route::post('addcaisse', 'CaisseController@store')->middleware('auth:api');
 
 });
